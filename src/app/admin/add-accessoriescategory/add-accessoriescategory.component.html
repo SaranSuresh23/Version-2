@@ -1,0 +1,83 @@
+<img src="/assets/images/package.png" alt="package" class="packageImg" >
+
+<div class="enquire-box">
+  <h2>Add Accessories Products</h2>
+
+  <form #addProduct="ngForm" class="common-form" (ngSubmit)="submit(addProduct.value)" >
+
+    <p class="message-p">{{addProductMessage}}</p>
+    <div class="field">
+        <input type="text" class="form-input" #imageField="ngModel" name="productImg" ngModel required="">
+        <label>Product Image</label>
+      </div>
+
+      <div class="invalid-input">
+        <div *ngIf="imageField.invalid && (imageField.dirty || imageField.touched)" class="error-message">
+          <span *ngIf="imageField.errors?.['required']">Product Image is required</span>
+        </div>
+      </div>
+
+      <br>
+
+
+    <div class="field">
+      <input type="text" class="form-input" name="productName" #nameField="ngModel" ngModel required="" min="3" max="20" pattern="^[a-zA-Z\s-]+$">
+      <label>Product Name</label>
+    </div>
+
+    <div class="invalid-input">
+      <div *ngIf="nameField.invalid && (nameField.dirty || nameField.touched)" class="error-message">
+        <span *ngIf="nameField.errors?.['required']">Product Name is required</span>
+        <span *ngIf="nameField.errors?.['pattern']">Please enter a valid product name <br> Ex: Bridge plastic miniature</span>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="field">
+      <input type="text" class="form-input" name="productDetails" #durationField="ngModel" ngModel required="" pattern="^[a-zA-Z\s-]+$">
+      <label>Product Details</label>
+    </div>
+
+    <div class="invalid-input">
+      <div *ngIf="durationField.invalid && (durationField.dirty || durationField.touched)" class="error-message">
+        <span *ngIf="durationField.errors?.['required']">Product Details is required</span>
+        
+      </div>
+    </div>
+
+    <br>
+
+    <div class="field">
+      <input type="number" class="form-input" name="productPrice" #priceField="ngModel" ngModel required="">
+      <label>Product Price</label>
+    </div>
+
+    <div class="invalid-input">
+      <div *ngIf="priceField.invalid && (priceField.dirty || priceField.touched)" class="error-message">
+        <span *ngIf="priceField.errors?.['required']">Product Price is required</span>
+      </div>
+    </div>
+
+    <br>
+
+
+
+
+    <br>
+
+    <br>
+
+    <div>
+      <button class="btn btn-5" [disabled]="addProduct.invalid">
+          <span></span>
+          Add Products
+      </button>
+    </div>
+  </form>
+
+
+</div>
+
+
+<br><br><br>

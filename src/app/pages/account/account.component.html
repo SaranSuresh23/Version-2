@@ -1,0 +1,18 @@
+<div id="logout">
+    <h2>My Account</h2>
+    <a id="logoutBtn" routerLink="/login">Log out</a>
+</div>
+<div id="details">
+<div>
+    <h2>Order History</h2>
+    <p>You haven't placed any orders yet.</p>
+</div>
+<div>
+    <h2>Account details</h2>
+    <li *ngIf="running"><a routerLink="login">login</a></li>
+    <p class="memberName">{{user}}</p>
+    <p class="memberName2">{{user}}</p>
+    <p>India</p>
+    <p>View adresses (1)</p>
+</div>
+</div>

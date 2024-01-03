@@ -1,0 +1,30 @@
+
+  .about__img{
+    width: 30%;
+    margin-left: 38%;
+  }
+  
+  .about__title{
+    margin-left: 30%;
+  }
+  
+  .about__description{
+    font-size: 1.5rem;
+  }
+  
+  .about__details{
+    display: grid;
+    row-gap: 1rem;
+  }
+  
+  .about__details-description{
+    display: inline-flex;
+    margin-left: 31%;
+    column-gap: .5rem;
+    font-size: 1.5rem;
+  }
+  .about__details-icon{
+    font-size: 1.5rem;
+    color: hsl(180, 90%, 25%);
+    margin-top: .15rem;
+  }

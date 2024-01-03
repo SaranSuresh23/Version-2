@@ -1,0 +1,33 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+<div class="container">
+
+
+
+
+
+  <div class="row" style="width: 1450px; position: relative; right: 150px; top: 50px;">
+    <div class="col-md-3" *ngFor="let item of bonsaiProducts" style="height: 400px;">
+      <div class="col-md-4">
+
+        <div class="card rounded mb-4 shadow-sm" style="width: 20rem; height: 23.5rem;" routerLink="/details/{{item.id}}">
+          <img src="{{item.productImg}}" alt="{{item.productImg}}" style="height: 250px;" class="card-img-top">
+          <!--<i class="fa-solid fa-heart fa-lg icon"></i>-->
+
+          <div class="card-body" >
+
+            <h5 class="card-title"  style="line-height: 1.6; text-transform: uppercase; font-size: 17px;">{{item.productName | uppercase}}</h5>
+            <p>{{item.productPrice | currency:'INR'}}</p>
+
+            <a class="buybtn" (click)=addToCart(item)>Add to Cart &nbsp;<i class="bi bi-cart-plus"></i></a>
+            
+                &nbsp;
+                <a class="buybtn" routerLink="/bdesc/{{item.id}}">Buy Now &nbsp;<i class="bi bi-bag"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

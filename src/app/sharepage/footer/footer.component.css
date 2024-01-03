@@ -1,0 +1,43 @@
+.footer
+{
+    overflow: hidden;
+    position: sticky;
+    top: 100%;
+    background-color:var(--primary-color);
+    padding: 20px 10px;
+}
+h1 
+{
+    font-weight: bold;
+    font-style: italic;
+    font-family:inspiration;
+    color: #fff;
+    font-size: 25px;
+}
+p 
+{
+    color: #fff;
+    font-size: 15px;
+}
+h3{
+    color: #fff;
+    text-decoration:underline;
+    padding: 0px 10px;
+    font-size: 19px;
+}
+a 
+{
+    color: #fff;
+    text-decoration: none;
+    padding: 0px 10px;
+    font-size: 17px;
+}
+a:hover 
+{
+    color:#DDFFE7;
+    text-decoration:underline;
+}
+i 
+{
+    padding: 0px 1px;
+}

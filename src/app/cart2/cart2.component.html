@@ -1,0 +1,57 @@
+<ng-container *ngIf="products.length != 0">
+  <div class="container">
+    <div class="card-table">
+      <div class="cart-product">
+        <div *ngFor="let item of products; let i = index" class="cart-item">
+          <div class="item-details">
+            <div class="item-image">
+              <img [src]="item.productImg" alt="Product Image" />
+            </div>
+            <div class="item-info">
+              <div class="item-title">{{ item.productName }}</div>
+              <div class="item-description">{{ item.productDetails }}</div>
+
+              <div class="item-quantity">
+                <button (click)="minus(item)" class="indec-button"><i class='fas fa-minus'></i></button>
+                <span class="quantity">{{ item.quantity }}</span>
+                <button (click)="plus(item)" class="indec-button"><i class="fas fa-plus"></i></button>
+              </div>
+            </div>
+            <!-- <div class="item-price">Price: ₹{{ item.price }}</div> -->
+
+
+          </div>
+          <button (click)="removeItem(item)" class="btn"><i class="fas fa-trash-alt"></i></button><div class="item-total" style="margin-top: -90px; margin-left: 350px;"> ₹{{ item.quantity * item.price }}</div>
+        </div>
+
+        <div class="cart-actions">
+          <div>
+            <button (click)="emptycart()" style="background-color: rgba(196, 32, 103, 0.853); border: none;padding: 5px;border-radius: 5px; font-weight: bold; margin-top: 40px;">Empty Cart</button>
+          </div>
+          <div>
+            <button routerLink="/home" class="btn btn-primary" style="margin-top: -63px; margin-left: 140px;" >Shop more</button>
+          </div>
+          <div>
+            <button routerLink="/cartorder" class="btn btn-success"style="margin-top: -130px;">Buy Now</button>
+          </div>
+          <div class="total" style="margin-left: 320px; margin-top: -93px; font-weight: bold;">
+           Total: ₹{{ total }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</ng-container>
+
+<ng-container *ngIf="products.length == 0">
+  <div class="container1">
+    <div class="center" style="margin-top: 200px;">
+      <img src="/assets/images/empty cart.webp" alt="Empty Cart" />
+      <h4>Your cart is empty!</h4>
+      <h6>Add items to it now</h6>
+      <button routerLink="/home" class="btn1" style="border: none; background-color: black; color: white; padding: 10px 20px; border-radius: 5px;">Shop Now</button>
+    </div>
+  </div>
+</ng-container>
+
+

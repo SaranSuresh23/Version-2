@@ -1,0 +1,172 @@
+/*h1{
+    text-align:center;
+}
+pre{
+    text-align:center;
+}
+body{
+    height: 100vh;
+}
+.container {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-top: -30px;
+  margin-left: 0px;
+  margin-bottom: 15px;
+  padding: 10px;
+  width:400px;
+  margin-top: 350px;
+  margin-left: 700px;
+  transform: translate(-50%, -50%);
+  border:2px solid #ccc;
+  border-radius:10px;
+  background: linear-gradient(90deg,rgb(0,163,163) 0%,rgb(0,195,212) 100%);
+  -webkit-box-shadow: 2px 1px 21px -9px rgba(0,0,0,0.38);
+  -moz-box-shadow: 2px 1px 21px -9px rgba(0,0,0,0.38);
+  box-shadow: 2px 1px 21px -9px rgba(0,0,0,0.38);
+}
+button{
+    padding: 5px;
+    background-color: #00778e ;
+}*/
+.user-auth h1{
+  margin-top: 50px;
+  margin-bottom: 80px;
+  color: #db6150;
+  text-align: center;
+}
+
+.user-auth {
+  margin-bottom: 100px;
+}
+.user-auth a{
+  color: #25c97c;
+  cursor: pointer;
+}
+.auth-toggle-link{
+  text-align: center;
+  text-decoration: none;
+}
+/**************************************************************************************************************************/
+
+
+.authImg{
+  /*height: 800px;
+  width: 1100px;
+  border: 1px solid black;*/
+  height: 600px;
+  width: 550px;
+  display: "inline-block";
+  position: relative;
+  left: 200px;
+  top: 70px;
+}
+.enquire-box {
+  margin: 0 auto;
+  width: 400px;
+  padding: 40px;
+  background: white;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+  position: relative;
+  left: 350px;
+  bottom: 530px;
+
+  display: "inline-block";
+}
+
+.enquire-box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: black;
+  text-align: center;
+}
+
+.enquire-box .field {
+  position: relative;
+}
+
+.enquire-box .field input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: black;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  background: transparent;
+}
+.enquire-box .field label {
+  position: absolute;
+  top:0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: black;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.enquire-box .field input:focus ~ label,
+.enquire-box .field input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #db6150;
+  font-size: 12px;
+}
+
+input[type=date]:required:invalid::-webkit-datetime-edit {
+  color: transparent;
+}
+input[type=date]:focus::-webkit-datetime-edit {
+  color: black !important;
+}
+
+.btn-5 {
+  position: relative;
+  color: #6D6875;
+  padding: 18px 55px;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 30px;
+  background: white;
+  overflow: hidden;
+  width: 234px;
+  left: 30px;
+  /*top: 30px;*/
+}
+
+.btn-5::before {
+  content: "";
+  position: absolute;
+  top: -5%;
+  right: -15%;
+  transform: rotate(15.6deg);
+  border-left: 54px solid transparent;
+  border-right: 54px solid transparent;
+  border-bottom: 112px solid #D8E2DC;
+  z-index: 9;
+}
+
+.btn-5::after {
+  content: "";
+  position: absolute;
+  top: -152%;
+  right: -4%;
+  transform: rotate(14.57deg);
+  border-left: 54px solid transparent;
+  border-right: 54px solid transparent;
+  border-bottom: 112px solid #9afee0;
+}
+
+.btn-5 span {
+  position: absolute;
+  top: -70%;
+  left: -15%;
+  transform: rotate(1.42deg);
+  border-left: 54px solid transparent;
+  border-right: 54px solid transparent;
+  border-bottom: 112px solid #cefcf3;
+}

@@ -1,0 +1,58 @@
+<nav class="nav">
+  <h1><a class="navbar-brand" routerLink=""><i class="bi bi-cloud-moon-fill"></i>WEBSERY</a> </h1>
+
+ <div [ngSwitch]="menuType">
+  <ul *ngSwitchCase="'default'" >
+    <!--<li><a routerLink="admin-auth">admin</a></li>-->
+    <li><a routerLink="">Home</a></li>
+    <li><a routerLink="category" >Category</a></li>
+    <li><a routerLink="menu" >Products</a></li>
+
+
+    <!--<li><a routerLink="contact">Contact</a></li>-->
+
+
+
+    <li><a routerLink="/login">Login/Sign-up</a></li>
+
+  </ul>
+  <ul *ngSwitchCase="'user'" >
+
+    <li><a routerLink="">Home</a></li>
+    <li><a>{{userName | titlecase}}</a></li>
+    <li><a routerLink="category" >Category</a></li>
+    <li><a routerLink="menu" >Products</a></li>
+
+
+    <!--<li><a routerLink="contact">Contact</a></li>-->
+
+    <li><a routerLink="my-orders" >My Orders</a></li>
+    <li><a routerLink="cart1" >Cart</a></li>
+
+    <li><a (click)="userLogout()" >Logout</a></li>
+
+
+  </ul>
+  <ul *ngSwitchCase="'admin'" >
+
+    <li>
+      <div class="dropdown">
+        <a class="dropbtn">Add Product</a>
+        <div class="dropdown-content">
+          <a routerLink="/admin/add-bonsai">Bonsai</a>
+          <a routerLink="/admin/add-seed">Seed</a>
+          <a routerLink="/admin/add-pot">Pot</a>
+          <a routerLink="/admin/add-accessories">Accessories</a>
+          <a routerLink="/admin/add-tool">Tool</a>
+          <a routerLink="/admin/add-fertilizer">Fertilizer</a>
+          <a routerLink="/admin/add-plant">Plant</a>
+          <a routerLink="/admin/add-stand">Stand</a>
+        </div>
+      </div>
+    </li>
+    <li><a routerLink="admin/home">List</a></li>
+    <li><a (click)="logout()">Logout</a></li>
+
+  </ul>
+ </div>
+</nav>

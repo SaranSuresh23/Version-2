@@ -1,0 +1,58 @@
+<div class="container">
+    <h2>Payment</h2>
+    <p>Total Amount: {{ totalAmount | currency: 'INR' }}</p>
+    
+    <div>
+      <label for="paymentMethod">Select Payment Method:</label>
+      <select id="paymentMethod" [(ngModel)]="selectedPaymentMethod">
+        <option value="creditCard">Credit Card</option>
+        <option value="paypal">PayPal</option>
+        <option value="upi">UPI</option>
+      </select>
+    </div>
+    
+    <form [formGroup]="userDetailsForm" (ngSubmit)="submitPaymentForm()">
+      <div class="form-group">
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" class="form-control" formControlName="fullName">
+        <div *ngIf="userDetailsForm?.get('fullName')?.invalid && userDetailsForm?.get('fullName')?.touched" class="text-danger">
+          Full name is required.
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" class="form-control" formControlName="email">
+        <div *ngIf="userDetailsForm?.get('email')?.invalid && userDetailsForm?.get('email')?.touched" class="text-danger">
+          Email is required and must be a valid email address.
+        </div>
+      </div>
+      <!-- Add more card details fields and validation messages as needed -->
+      
+      <div *ngIf="selectedPaymentMethod === 'creditCard'">
+        <div class="form-group">
+          <label for="cardNumber">Card Number:</label>
+          <input type="text" id="cardNumber" class="form-control" formControlName="cardNumber">
+          <div *ngIf="userDetailsForm?.get('cardNumber')?.invalid && userDetailsForm?.get('cardNumber')?.touched" class="text-danger">
+            Card number is required and must be a 16-digit number.
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="expiration">Expiration (MM/YY):</label>
+          <input type="text" id="expiration" class="form-control" formControlName="expiration">
+          <div *ngIf="userDetailsForm?.get('expiration')?.invalid && userDetailsForm?.get('expiration')?.touched" class="text-danger">
+            Expiration is required and must be in the format MM/YY.
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="cvv">CVV:</label>
+          <input type="text" id="cvv" class="form-control" formControlName="cvv">
+          <div *ngIf="userDetailsForm?.get('cvv')?.invalid && userDetailsForm?.get('cvv')?.touched" class="text-danger">
+            CVV is required and must be a 3 or 4-digit number.
+          </div>
+        </div>
+      </div>
+      
+      <button type="submit" class="btn btn-success">Pay Now</button>
+    </form>
+  </div>
+  

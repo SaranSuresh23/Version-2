@@ -1,0 +1,1339 @@
+{
+  "admin": [
+    {
+      "name": "Admin",
+      "email": "webseryproject@gmail.com",
+      "password": "Saran@2001",
+      "id": 1
+    }
+  ],
+  "users": [
+    {
+      "name": "saran",
+      "email": "saran16278@gmail.com",
+      "password": "Saran@23",
+      "id": 2
+    },
+    {
+      "name": "Aravind",
+      "email": "aravind0905@gmail.com",
+      "password": "Aravind@09095",
+      "id": 3
+    },
+    {
+      "name": "abishek",
+      "email": "abishekmurali03@gmail.com",
+      "password": "Abishek@123",
+      "id": 4
+    }
+  ],
+  "wishlist": [
+    {
+      "uname": "Suresh",
+      "id": 1,
+      "title": "Round Egg Ceramic Pot",
+      "spec": "(White) (set of 2)",
+      "price": 250,
+      "quantity": 1,
+      "thumbnail": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-planters-3-7-inch-9-cm-round-egg-ceramic-pot-white-16968461811852_600x600.jpg?v=1634207925"
+    }
+  ],
+  "mycart": [
+    {
+      "uname": "Aravind",
+      "id": 16,
+      "title": "Silver Cypress Bonsai",
+      "spec": "-",
+      "price": 1099,
+      "quantity": 1,
+      "thumbnail": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-g-silver-cypress-bonsai-plant_1_600x600.jpg?v=1634228920"
+    },
+    {
+      "uname": "saran",
+      "id": 2,
+      "title": "Cauliflower Snowball",
+      "spec": "Desi Vegetable Seeds",
+      "price": 20,
+      "quantity": 1,
+      "thumbnail": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-seeds-cauliflower-snowball-16-desi-vegetable-seeds-16968696627340_600x600.jpg?v=1634203465"
+    },
+    {
+      "uname": null,
+      "id": 1,
+      "title": "Round Egg Ceramic Pot",
+      "spec": "(White) (set of 2)",
+      "price": 250,
+      "quantity": 1,
+      "thumbnail": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-planters-3-7-inch-9-cm-round-egg-ceramic-pot-white-16968461811852_600x600.jpg?v=1634207925"
+    }
+  ],
+  "Products": [
+    {
+      "id": 1,
+      "productName": "Round Egg Ceramic Pot",
+      "productDetails": "(White) (set of 2)",
+      "productPrice": 250,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-planters-3-7-inch-9-cm-round-egg-ceramic-pot-white-16968461811852_600x600.jpg?v=1634207925"
+    },
+    {
+      "id": 2,
+      "productName": "Hibiscus",
+      "productDetails": "Gudhal Flower(Peach Double)",
+      "productPrice": 269,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-plants-hibiscus-gudhal-flower-peach-double-plant-16968931115148_600x600.jpg?v=1634221736"
+    },
+    {
+      "id": 3,
+      "productName": " Kitchen Garden Pack",
+      "productDetails": "Healthy Vegetable Grown at Home (Seeds with Pots)",
+      "productPrice": 149,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-healthly-vegetables-grown-at-home-kitchen-garden-pack_600x600.jpg?v=1634221534"
+    },
+    {
+      "id": 4,
+      "productName": "Round Plastic Planters",
+      "productDetails": "With 3 tier Hanging Kit (Red,Green,Yellow)",
+      "productPrice": 140,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-combo-packs-pots-9-1-inch-23-cm-ronda-no-2320-round-plastic-planters-with-3-tier-hanging-kit-red-green-yellow-16968542552204_600x600.jpg?v=1634210954"
+    },
+    {
+      "id": 5,
+      "productName": "DIY Stone Decor Ideas",
+      "productDetails": "For Water Features",
+      "productPrice": 105,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-combo-packs-pebbles-diy-stone-decor-ideas-for-water-features-16981363982476_600x600.jpg?v=1634218129"
+    },
+    {
+      "id": 6,
+      "productName": "Ficus Plant",
+      "productDetails": "Multiroots 190cm - Plant",
+      "productPrice": 219,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-ficus-multiroots-190cm-plant_600x600.jpg?v=1634219540"
+    },
+    {
+      "id": 7,
+      "productName": "Pomegranate",
+      "productDetails": "Anar (Grafted) - Plant",
+      "productPrice": 359,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-plants-pomegranate-annar-anar-grafted-plant-16969218064524_600x600.jpg?v=1646287095"
+    },
+    {
+      "id": 8,
+      "productName": "Tomato Seeds",
+      "productDetails": "Marglobe - Organic Vegetable Seeds",
+      "productPrice": 100,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-seeds-tomato-marglobe-organic-vegetable-seeds-16969383641228_600x600.jpg?v=1634205137"
+    },
+    {
+      "id": 9,
+      "productName": "Coco peat block ",
+      "productDetails": "900 g (Expands Up to 8 - 14 L)",
+      "productPrice": 149,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-cocopeat-block-900-g_396x396.jpg?v=1634216408"
+    },
+    {
+      "id": 10,
+      "productName": "Bonsai Set No.1025",
+      "productDetails": " Gardening Tools",
+      "productPrice": 219,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-gardening-tools-bonsai-set-no-1025-gardening-tools-16968648360076_396x396.jpg?v=1634214773"
+    },
+    {
+      "id": 11,
+      "productName": "Krishna Tulsi",
+      "productDetails": "Tulsi ( Black ) - 0.5 kg Seeds",
+      "productPrice": 999,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-seeds-krishna-tulsi-tulsi-black-0-5-kg-seeds-112929_600x600.png?v=1679750449"
+    },
+    {
+      "id": 12,
+      "productName": " Watering Can ",
+      "productDetails": "Hand Printed Round Metal (Red) - Gardening Tool",
+      "productPrice": 500,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-gardening-tools-hand-printed-round-metal-watering-can-red-gardening-tool-16968521089164_600x600.jpg?v=1634221032"
+    },
+    {
+      "id": 13,
+      "productName": "Peas Azad P 3",
+      "productDetails": "Desi Vegetable Seeds",
+      "productPrice": 50,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-seeds-peas-azad-p-3-desi-vegetable-seeds-16969165766796_600x600.jpg?v=1634204516"
+    },
+    {
+      "id": 14,
+      "productName": "Bone Meal Powder",
+      "productDetails": "500 g",
+      "productPrice": 219,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-fertilizer-bone-meal-powder-250-gm-for-garden_396x396.jpg?v=1634214743"
+    },
+    {
+      "id": 15,
+      "productName": "Nutrient-rich soil",
+      "productDetails": "General purpose potting soil mix - 5 kg",
+      "productPrice": 500,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-soil-and-fertilizers-nutrient-rich-general-purpose-potting-soil-mix-10-kg-16969045966988_396x396.jpg?v=1634224988"
+    }
+  ],
+  "bonsai": [
+    {
+      "id": 3,
+      "productName": "Fantastic Ficus Bonsai",
+      "productDetails": "For Fabulous Mother",
+      "productPrice": 1000,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-gifts-fantastic-ficus-bonsai-for-fabulous-mother-16968853979276_305x305.jpg?v=1634219341"
+    },
+    {
+      "id": 4,
+      "productName": "Ficus Bonsai - Plant",
+      "productDetails": "Vertical Braided Arrangement",
+      "productPrice": 7730,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-plants-ficus-bonsai-vertical-braided-arrangement-plant-16968857092236_600x600.jpg?v=1634219446"
+    },
+    {
+      "id": 5,
+      "productName": "Jade Bonsai - Plant",
+      "productDetails": "-",
+      "productPrice": 500,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-plants-jade-bonsai-plant-16968841166988_396x396.jpg?v=1634222537"
+    },
+    {
+      "id": 6,
+      "productName": "Ficus Plant",
+      "productDetails": "Multiroots 190cm - Plant",
+      "productPrice": 219,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-ficus-multiroots-190cm-plant_600x600.jpg?v=1634219540"
+    },
+    {
+      "id": 7,
+      "productName": "Ficus Bonsai with Mini Easel",
+      "productDetails": "For Friendship Day wishes",
+      "productPrice": 1200,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-gifts-friendship-day-wishes-with-incredible-ficus-bonsai-and-mini-easel-16968868397196_396x396.jpg?v=1634221065"
+    },
+    {
+      "id": 8,
+      "productName": "Buxus Bonsai - Plant",
+      "productDetails": "-",
+      "productPrice": 100,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-plants-buxus-bonsai-plant-16968671395980_396x396.jpg?v=1634215153"
+    },
+    {
+      "id": 9,
+      "productName": "Golden Cypress Bonsai - Plant",
+      "productDetails": "-",
+      "productPrice": 1599,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-g-golden-cypress-bonsai-plant_600x600.jpg?v=1634220546"
+    },
+    {
+      "id": 10,
+      "productName": "Wish Good Luck with Ficus Bonsai",
+      "productDetails": "Along with Laughing Budda",
+      "productPrice": 1110,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-gifts-wish-good-luck-with-ficus-bonsai-and-laughing-buddha-16969427845260_396x396.jpg?v=1634231081"
+    },
+    {
+      "id": 11,
+      "productName": "Ficus 100 gms",
+      "productDetails": "-",
+      "productPrice": 899,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-ficus-100-gms-plant_396x396.jpg?v=1634219386"
+    },
+    {
+      "id": 12,
+      "productName": "Ficus Panda Bonsai",
+      "productDetails": "-",
+      "productPrice": 599,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-plants-ficus-panda-bonsai-plant-16968859222156_396x396.jpg?v=1634219557"
+    },
+    {
+      "id": 13,
+      "productName": "Boxwood Bonsai",
+      "productDetails": "-",
+      "productPrice": 1450,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-g-boxwood-bonsai-plant_600x600.jpg?v=1634214932"
+    },
+    {
+      "id": 14,
+      "productName": "Ficus Microcarpa Bonsai",
+      "productDetails": "-",
+      "productPrice": 4250,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-plants-ficus-microcarpa-bonsai-plant-16968856764556_600x600.jpg?v=1634219514"
+    },
+    {
+      "id": 15,
+      "productName": "Bring Good Luck to your Parents",
+      "productDetails": "with Budda and Ficus Bonsai",
+      "productPrice": 1099,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-g-bring-good-luck-to-your-parents-with-buddha-and-ficus-bonsai-832517_396x396.jpg?v=1679749383"
+    },
+    {
+      "id": 16,
+      "productName": "Silver Cypress Bonsai",
+      "productDetails": "-",
+      "productPrice": 1099,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-g-silver-cypress-bonsai-plant_1_600x600.jpg?v=1634228920"
+    },
+    {
+      "id": 17,
+      "productName": "Ficus Iceland Bonsai",
+      "productDetails": "-",
+      "productPrice": 1099,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-g-ficus-iceland-bonsai-plant_600x600.jpg?v=1634219481"
+    },
+    {
+      "id": 18,
+      "productName": "Ficus Bonsai in Ceramic Pot",
+      "productDetails": "-",
+      "productPrice": 795,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-plants-ficus-bonsai-in-ceramic-pot-16968856273036_305x305.jpg?v=1634219439"
+    },
+    {
+      "id": 19,
+      "productName": "Banyan Tree Bonsai Plant",
+      "productDetails": "-",
+      "productPrice": 1899,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-banyan-tree-plant_396x396.jpg?v=1634214221"
+    }
+  ],
+  "seeds": [
+    {
+      "id": 2,
+      "productName": "Cauliflower Snowball",
+      "productDetails": "Desi Vegetable Seeds",
+      "productPrice": 20,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-seeds-cauliflower-snowball-16-desi-vegetable-seeds-16968696627340_600x600.jpg?v=1634203465"
+    },
+    {
+      "id": 3,
+      "productName": "Spinach",
+      "productDetails": "Organic Vegetable Seeds",
+      "productPrice": 75,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-seeds-spinach-organic-vegetable-seeds-16969343697036_600x600.jpg?v=1634204867"
+    },
+    {
+      "id": 4,
+      "productName": "Cabbage",
+      "productDetails": "Desi Vegetable Seeds",
+      "productPrice": 27,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-seeds-cabbage-special-pride-desi-vegetable-seeds-16968672411788_600x600.jpg?v=1634203286"
+    },
+    {
+      "id": 5,
+      "productName": "Methi Kasturi",
+      "productDetails": "Desi Vegetable Seeds",
+      "productPrice": 25,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-seeds-methi-kasturi-desi-vegetable-seeds-16969026175116_600x600.jpg?v=1634204330"
+    },
+    {
+      "id": 6,
+      "productName": "Tulsi Seeds (Black)",
+      "productDetails": "Organic Herb Seeds",
+      "productPrice": 75,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-seeds-krishna-tulsi-tulsi-black-0-5-kg-seeds-112929_600x600.png?v=1679750449"
+    },
+    {
+      "id": 7,
+      "productName": "Peas Seeds",
+      "productDetails": "Desi Vegetable Seeds",
+      "productPrice": 25,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-seeds-peas-azad-p-3-desi-vegetable-seeds-16969165766796_600x600.jpg?v=1634204516"
+    },
+    {
+      "id": 8,
+      "productName": "Radish Red Round Seeds",
+      "productDetails": "Desi Vegetable Seeds",
+      "productPrice": 27,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-seeds-radish-red-round-desi-vegetable-seeds-16969238020236_600x600.jpg?v=1634204738"
+    },
+    {
+      "id": 9,
+      "productName": "Turnip Purple Top",
+      "productDetails": "Desi Vegetable Seeds",
+      "productPrice": 29,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-seeds-turnip-purple-top-desi-vegetable-seeds-16969408413836_600x600.jpg?v=1634205211"
+    },
+    {
+      "id": 10,
+      "productName": "Knol Khol White",
+      "productDetails": "Desi Vegetable Seeds",
+      "productPrice": 30,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-seeds-knol-khol-white-desi-vegetable-seeds-16968987967628_600x600.jpg?v=1634204120"
+    },
+    {
+      "id": 11,
+      "productName": "Lettuce Ice Berg Salista",
+      "productDetails": "Vegetable Seeds",
+      "productPrice": 49,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-seeds-lettuce-ice-berg-salista-vegetable-seeds-16969078538380_600x600.jpg?v=1634204220"
+    },
+    {
+      "id": 12,
+      "productName": "Cineraria Mixed Color",
+      "productDetails": "Flower Seeds",
+      "productPrice": 50,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-seeds-cineraria-mixed-color-flower-seeds-16968784576652_600x600.jpg?v=1634203646"
+    },
+    {
+      "id": 13,
+      "productName": "Onion NP 53",
+      "productDetails": "Desi Vegetable Seeds",
+      "productPrice": 50,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-seeds-onion-np-53-desi-vegetable-seeds-16969142599820_600x600.jpg?v=1634204412"
+    },
+    {
+      "id": 14,
+      "productName": "Alfalfa, Lucerne",
+      "productDetails": "0.5 kg Seeds",
+      "productPrice": 420,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-seeds-alfalfa-lucerne-0-5-kg-seeds-16968582824076_600x600.jpg?v=1634212999"
+    },
+    {
+      "id": 15,
+      "productName": "Bermuda Lawn Grass",
+      "productDetails": "250 g seeds",
+      "productPrice": 199,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-seeds-bermuda-grass-250-g-seeds-16968629878924_600x600.jpg?v=1634214275"
+    },
+    {
+      "id": 16,
+      "productName": "Pack of 75 Native Tree Seeds of India",
+      "productDetails": "-",
+      "productPrice": 1699,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-pack-of-75-native-tree-seeds-of-india-frame-2-600x600-390961_902x902.jpg?v=1679750744"
+    },
+    {
+      "id": 17,
+      "productName": "Cassia Marginata, Rose Shower",
+      "productDetails": "0.5 kg Seeds",
+      "productPrice": 499,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-seeds-cassia-marginata-rose-shower-0-5-kg-seeds-16968694956172_600x600.jpg?v=1634215611"
+    },
+    {
+      "id": 18,
+      "productName": "Capsicum California Wonder",
+      "productDetails": "Organic Vegetable Seeds",
+      "productPrice": 75,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-seeds-capsicum-california-wonder-organic-vegetable-seeds-16968684863628_600x600.jpg?v=1634203340"
+    },
+    {
+      "id": 19,
+      "productName": "Chilly Red",
+      "productDetails": "Organic Vegetable Seeds",
+      "productPrice": 79,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-seeds-chilly-red-organic-vegetable-seeds-16968780972172_600x600.jpg?v=1634203603"
+    }
+  ],
+  "pots": [
+    {
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-planters-3-inch-8-cm-handi-shape-round-ceramic-pot-yellow-16968466792588_600x600.jpg?v=1634208193",
+      "productName": "Handi Shape Ceramic Pot ",
+      "productDetails": "(Yellow) (set of 2).",
+      "productPrice": "350",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "productName": "Buddha Marble Finish Ceramic Pot ",
+      "productDetails": "(White)",
+      "productPrice": 500,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-planters-4-3-inch-11-cm-buddha-marble-finish-ceramic-pot-white-16968478359692_600x600.jpg?v=1634208431"
+    },
+    {
+      "id": 3,
+      "productName": "SML-015 Diamond Hanging Planter",
+      "productDetails": "(Gold color) - Fiberglass material",
+      "productPrice": 899,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-planters-9-8-inch-25-cm-sml-015-diamond-hanging-fiberglass-planter-golden-color-16968540356748_600x600.png?v=1601350582"
+    },
+    {
+      "id": 4,
+      "productName": "Eco Friendly Jute Grow Bag",
+      "productDetails": "(Brown) pack of 4",
+      "productPrice": 500,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-planters-8-5-inch-22-cm-eco-friendly-jute-grow-bag-brown-16968535867532_600x600.jpg?v=1634212759"
+    },
+    {
+      "id": 5,
+      "productName": "Round Egg Ceramic Pot",
+      "productDetails": "(White) (set of 2)",
+      "productPrice": 250,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-planters-3-7-inch-9-cm-round-egg-ceramic-pot-white-16968461811852_600x600.jpg?v=1634207925"
+    },
+    {
+      "id": 6,
+      "productName": "Square Grow Bag",
+      "productDetails": "(White) (set of 5)",
+      "productPrice": 250,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-planters-6-3-inch-16-cm-square-grow-bag-white-16968513880204_600x600.jpg?v=1634210830"
+    },
+    {
+      "id": 7,
+      "productName": "Round Plastic Planters",
+      "productDetails": "With 3 tier Hanging Kit (Red,Green,Yellow)",
+      "productPrice": 1500,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-combo-packs-pots-9-1-inch-23-cm-ronda-no-2320-round-plastic-planters-with-3-tier-hanging-kit-red-green-yellow-16968542552204_600x600.jpg?v=1634210954"
+    },
+    {
+      "id": 8,
+      "productName": "Round Grow Bag",
+      "productDetails": "(Green) (set of 4)",
+      "productPrice": 550,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-planters-12-inch-30-cm-round-grow-bag-green-16968405450892_600x600.jpg?v=1634206102"
+    },
+    {
+      "id": 9,
+      "productName": "Aching Hanging Round Metal Pot",
+      "productDetails": "With Chain (Pink) (set of 2)",
+      "productPrice": 499,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-planters-6-5-inch-17-cm-aching-hanging-round-metal-pot-with-chain-pink-16968509915276_600x600.jpg?v=1634209943"
+    },
+    {
+      "id": 10,
+      "productName": "Handi Shape Ceramic Pot",
+      "productDetails": "(Red) (set of 2)",
+      "productPrice": 30,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-planters-3-inch-8-cm-handi-shape-round-ceramic-pot-red-16968466169996_600x600.jpg?v=1634208184"
+    },
+    {
+      "id": 11,
+      "productName": "Corsica no.18 Hanging Plastic Pots",
+      "productDetails": "(Multi-Color) (pack of 6) (Round)",
+      "productPrice": 449,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-combo-packs-pots-7-1-inch-18-cm-corsica-no-18-hanging-round-plastic-pots-mix-color-pack-of-six-16968525480076_600x600.jpg?v=1634210178"
+    },
+    {
+      "id": 12,
+      "productName": "Rectangle Grow Bag",
+      "productDetails": "(Green) (set of 5)",
+      "productPrice": 599,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-planters-18-inch-46-cm-rectangle-grow-bag-green-16968438939788_600x600.jpg?v=1634207009"
+    },
+    {
+      "id": 13,
+      "productName": "Round Plastic Thermoform Pot",
+      "productDetails": "5.1 inch (13 cm) (Mix Color) - Pack of 20",
+      "productPrice": 259,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-5-1-inch-13-cm-round-thermoform-pot-mix-color-pack-of-twenty_600x600.jpg?v=1634209365"
+    },
+    {
+      "id": 14,
+      "productName": "Plastic Germination Tray",
+      "productDetails": "(70 Cells, Round) (set of 5)",
+      "productPrice": 420,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-planters-germination-tray-70-cells-round-pack-of-5-16968878358668_300x300.png?v=1601351589"
+    },
+    {
+      "id": 15,
+      "productName": "Square Glass Vase",
+      "productDetails": "2 inch (5 cm) (9 inch (23 cm) Height)",
+      "productPrice": 199,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-planters-2-inch-5-cm-square-glass-vase-9-inch-23-cm-height-16968447295628_600x600.jpg?v=1634207062"
+    },
+    {
+      "id": 16,
+      "productName": "Wooden Finish Self Watering Planter",
+      "productDetails": "11.3 inch (29 cm) (Brown) (Round) - Plastic material",
+      "productPrice": 1099,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-planters-11-3-inch-29-cm-ronda-no-2926-wooden-finish-self-watering-round-plastic-planter-brown-16968378515596_600x600.jpg?v=1634205654"
+    },
+    {
+      "id": 17,
+      "productName": "Bonsai Square Ceramic Pot",
+      "productDetails": "5.1 inch (13 cm) (Brown) (set of 2)",
+      "productPrice": 499,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-planters-5-1-inch-13-cm-bonsai-square-ceramic-pot-brown-16968496283788_902x902.jpg?v=1634209920"
+    },
+    {
+      "id": 18,
+      "productName": "Round Egg Ceramic Pot With Plate",
+      "productDetails": "3.7 inch (9 cm) (White, Light Peach) (set of 2)",
+      "productPrice": 399,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-planters-3-7-inch-9-cm-cp005-round-egg-ceramic-pot-with-plate-white-light-peach-16968459255948_600x600.jpg?v=1634207846"
+    },
+    {
+      "id": 19,
+      "productName": "Elephant Shape Marble Finish Pot",
+      "productDetails": "3.7 inch (9 cm) (White) (set of 2) - Ceramic Pot",
+      "productPrice": 599,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-planters-3-7-inch-9-cm-elephant-shape-marble-finish-ceramic-pot-white-16968461451404_600x600.jpg?v=1634207908"
+    },
+    {
+      "id": 20,
+      "productName": "Plastic Germination Tray",
+      "productDetails": "(102 Cells, Round) (set of 5)",
+      "productPrice": 399,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-planters-germination-tray-104-cells-round-16968877965452_600x600.jpg?v=1634226285"
+    },
+    {
+      "id": 21,
+      "productName": "Stone Finish Rotomoulded Planter",
+      "productDetails": "23.6 inch (60 cm) (Grey) (Square) - Plastic material",
+      "productPrice": 4599,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-planters-23-6-inch-60-cm-cubo-no-60-stone-finish-square-rotomoulded-plastic-planter-grey-16968451391628_305x305.jpg?v=1634207333"
+    }
+  ],
+  "accessories": [
+    {
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-miniature-garden-toys-bridge-plastic-miniature-garden-toy-1-piece-16968660385932_305x305.jpg?v=1634214990",
+      "productName": "Bridge plastic miniature ",
+      "productDetails": "1 Piece - garden toy",
+      "productPrice": 98,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "productName": "Moss Stick",
+      "productDetails": "(2 Feet) (Set of 2)",
+      "productPrice": 259,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-gardening-accessories-moss-stick-2-feet-16969035972748_400x400.jpg?v=1634224467"
+    },
+    {
+      "id": 3,
+      "productName": "Butterflies plastic miniature",
+      "productDetails": "5 Pieces - garden toys",
+      "productPrice": 199,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-miniature-garden-toys-butterflies-plastic-miniature-garden-toys-5-pieces-16968669069452_305x305.jpg?v=1634215136"
+    },
+    {
+      "id": 4,
+      "productName": "Boat with oars plastic miniature",
+      "productDetails": "1 Set - garden toys",
+      "productPrice": 159,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-miniature-garden-toys-boat-with-oars-plastic-miniature-garden-toys-1-set-16968646688908_600x600.jpg?v=1634214736"
+    },
+    {
+      "id": 5,
+      "productName": "Microgreens Coir Grow Mat",
+      "productDetails": "(10 x 20 inch (25.4 x 50.8 cm)) (Set of 20)",
+      "productPrice": 1299,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-microgreens-coir-grow-mat-10-x-20-inch-25-4-x-50-8-cm-set-of-20-image_600x600.jpg?v=1634223973"
+    },
+    {
+      "id": 6,
+      "productName": "Coir Mulch Mat",
+      "productDetails": "10Inch (25 cm) (set of 6)",
+      "productPrice": 300,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-gardening-accessories-10inch-25-cm-coir-mulch-mat-16968374026380_305x305.jpg?v=1634206465"
+    },
+    {
+      "id": 7,
+      "productName": "Mushroom houses plastic miniature",
+      "productDetails": "4 Pieces -  garden toys",
+      "productPrice": 100,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-miniature-garden-toys-mushroom-houses-plastic-miniature-garden-toys-4-pieces-16969039052940_600x600.jpg?v=1634224577"
+    },
+    {
+      "id": 8,
+      "productName": "Deer plastic miniature garden toys",
+      "productDetails": "1 pair",
+      "productPrice": 259,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-miniature-garden-toys-deer-plastic-miniature-garden-toys-1-pair-16968818327692_600x600.jpg?v=1634217760"
+    },
+    {
+      "id": 9,
+      "productName": "2ft Coir Pole",
+      "productDetails": "(set of 2)",
+      "productPrice": 199,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-gardening-accessories-2ft-coir-pole-254594_600x600.jpg?v=1679748300"
+    },
+    {
+      "id": 10,
+      "productName": "Cute monks plastic miniature",
+      "productDetails": "(Big, Hay Hat, Matt Finish) - 4 pieces - garden toys",
+      "productPrice": 559,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-miniature-garden-toys-cute-monks-plastic-miniature-garden-toys-big-hay-hat-matt-finish-4-pieces-16968808726668_396x396.jpg?v=1634218032"
+    },
+    {
+      "id": 11,
+      "productName": "Anodised Aluminium Wire",
+      "productDetails": "(1 mm, 33 ft /10 m) for Bonsai Training",
+      "productPrice": 149,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-anodised-aluminium-wire-2-mm-33-ft-10-m-for-bonsai-training_305x305.jpg?v=1634213359"
+    },
+    {
+      "id": 12,
+      "productName": "Round Metal Birdhouse",
+      "productDetails": "(Red)",
+      "productPrice": 50,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-gardening-accessories-round-metal-birdhouse-red-16969271836812_600x600.jpg?v=1634227686"
+    },
+    {
+      "id": 13,
+      "productName": "Artificial Grass",
+      "productDetails": "(6.5 X 3 ft / 1.9 x 0.9 m)",
+      "productPrice": 1399,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-gardening-accessories-artificial-grass-6-5-x-3-ft-1-9-x-0-9-m-16968602681484_600x600.jpg?v=1634213731"
+    },
+    {
+      "id": 14,
+      "productName": "Super Granite Pebbles",
+      "productDetails": "(Black, Medium, Polished) - 1 kg",
+      "productPrice": 199,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-pebbles-super-granite-pebbles-black-medium-polished-1-kg-16969359556748_600x600.jpg?v=1634229497"
+    },
+    {
+      "id": 15,
+      "productName": "Stone Sand",
+      "productDetails": "(White) - 1 kg",
+      "productPrice": 149,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-pebbles-stone-sand-white-1-kg-16969352413324_396x396.jpg?v=1634229350"
+    },
+    {
+      "id": 16,
+      "productName": "Garden Decor Ideas with Pebbles",
+      "productDetails": "-",
+      "productPrice": 1099,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-combo-packs-pebbles-garden-decor-ideas-with-pebbles-16968870396044_600x600.jpg?v=1634221144"
+    },
+    {
+      "id": 17,
+      "productName": "Pebbles Art for Succulents",
+      "productDetails": "in Glass Terrarium",
+      "productPrice": 299,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-combo-packs-pebbles-pebbles-art-for-succulents-in-glass-terrarium-16969165832332_396x396.jpg?v=1634225609"
+    },
+    {
+      "id": 18,
+      "productName": "Decor Terrarium with Pebbles",
+      "productDetails": "-",
+      "productPrice": 175,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-combo-packs-pebbles-decor-terrarium-with-pebbles-16968817606796_600x600.jpg?v=1634217730"
+    },
+    {
+      "id": 19,
+      "productName": "Garden Pebbles",
+      "productDetails": "(Aqua Green Color, Small) - 1 kg",
+      "productPrice": 279,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-pebbles-garden-pebbles-aqua-green-color-small-1-kg-16968870723724_396x396.jpg?v=1634219881"
+    }
+  ],
+  "tools": [
+    {
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-gardening-tools-plastic-hand-trowel-no-1021-gardening-tool-16969208725644_600x600.jpg?v=1634226304",
+      "productName": "Plastic Hand Trowel No. 1021",
+      "productDetails": "Gardening Tool",
+      "productPrice": 158,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "productName": "Set of 7 Garden Tool Kit",
+      "productDetails": "Gardening Tools",
+      "productPrice": 499,
+      "productImg": "https://nurserylive.com/cdn/shop/products/nurserylive-set-of-7-garden-tool-kit-set--gardening-tools_600x600.jpg?v=1681542258"
+    },
+    {
+      "id": 3,
+      "productName": "Bonsai Set No.1025 - Gardening Tools",
+      "productDetails": "-",
+      "productPrice": 259,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-gardening-tools-bonsai-set-no-1025-gardening-tools-16968648360076_600x600.jpg?v=1634214773"
+    },
+    {
+      "id": 4,
+      "productName": "Pressure Sprayer",
+      "productDetails": "(1.5 ltr) - Gardening Tool",
+      "productPrice": 159,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-gardening-tools-pressure-sprayer-1-5-ltr-gardening-tool-16969224683660_600x600.jpg?v=1634226866"
+    },
+    {
+      "id": 5,
+      "productName": "Pruning Shear No. MMI 58",
+      "productDetails": "Gardening Tool",
+      "productPrice": 199,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-gardening-tools-pruning-shear-no-mmi-58-gardening-tool-16969227796620_600x600.jpg?v=1634226916"
+    },
+    {
+      "id": 6,
+      "productName": "Gardening Water Can No. 1118",
+      "productDetails": "(10 ltr) - Gardening Tool",
+      "productPrice": 575,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-gardening-tools-gardening-water-can-no-1118-10-ltr-gardening-tool-16968872362124_600x600.jpg?v=1634220060"
+    },
+    {
+      "id": 7,
+      "productName": "Hand Fork Plain No. 1004",
+      "productDetails": "Gardening Tool",
+      "productPrice": 100,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-gardening-tools-hand-fork-plain-no-1004-gardening-tool-16968866234508_600x600.jpg?v=1634220986"
+    },
+    {
+      "id": 8,
+      "productName": "Khurpa Steel Handle with Grip",
+      "productDetails": "3 inch (8 cm) - Gardening Tool",
+      "productPrice": 159,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-3inch-khurpa-steel-handle-with-grip-mmi-89_600x600.jpg?v=1634208199"
+    },
+    {
+      "id": 9,
+      "productName": "3 Prong Hand Cultivator No. MMI 84",
+      "productDetails": "Gardening Tool",
+      "productPrice": 99,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-gardening-tools-3-prong-hand-cultivator-no-mmi-84-gardening-tool-16968469086348_600x600.jpg?v=1634207627"
+    },
+    {
+      "id": 10,
+      "productName": "All in One Garden Essentials Kit",
+      "productDetails": "Garden kit",
+      "productPrice": 859,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-all-in-one-garden-essentials-kit-1-500579_305x305.jpg?v=1679749034"
+    },
+    {
+      "id": 11,
+      "productName": "Hand Printed Round Metal Watering ",
+      "productDetails": "(Red) - Gardening Tool",
+      "productPrice": 549,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-gardening-tools-hand-printed-round-metal-watering-can-red-gardening-tool-16968521089164_600x600.jpg?v=1634221032"
+    },
+    {
+      "id": 12,
+      "productName": "Kitchen Garden Hand Tool Kit",
+      "productDetails": "Gardening Tools",
+      "productPrice": 750,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-gardening-tools-kitchen-garden-hand-tool-kit-gardening-tools-16968986493068_600x600.jpg?v=1634223029"
+    },
+    {
+      "id": 13,
+      "productName": "Basic Garden Cutting Tool Kit",
+      "productDetails": "Gardening Tools",
+      "productPrice": 599,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-gardening-tools-basic-garden-cutting-tool-kit_305x305.jpg?v=1634214056"
+    },
+    {
+      "id": 14,
+      "productName": "Khurpa with Wooden Color Handle",
+      "productDetails": "5 inch (13 cm) - Gardening Tool",
+      "productPrice": 299,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-gardening-tools-5-inch-13-cm-khurpa-with-wooden-color-handle-no-1017-gardening-tool-16968513519756_600x600.jpg?v=1634209247"
+    },
+    {
+      "id": 15,
+      "productName": "Digging Fork No. 1085",
+      "productDetails": "Gardening Tool",
+      "productPrice": 749,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-digging-fork-no-1085-gardening-tool_600x600.jpg?v=1634218611"
+    },
+    {
+      "id": 16,
+      "productName": "Children Tool Set No. 1132",
+      "productDetails": "Gardening Tools",
+      "productPrice": 499,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-gardening-tools-children-tool-set-no-1132-gardening-tools-16968777924748_600x600.jpg?v=1634215998"
+    },
+    {
+      "id": 17,
+      "productName": "Hedge Shear with Wooden Handle",
+      "productDetails": "Gardening Tool",
+      "productPrice": 399,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-gardening-tools-hedge-shear-with-wooden-handle-no-mmi-78-gardening-tool-16968925118604_600x600.jpg?v=1634221563"
+    },
+    {
+      "id": 18,
+      "productName": "Leaf Rake No. MMI-100",
+      "productDetails": "(16 Tines) - Gardening Tool",
+      "productPrice": 495,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-gardening-tools-leaf-rake-no-mmi-100-16-tines-gardening-tool-16968609595532_600x600.jpg?v=1634227069"
+    },
+    {
+      "id": 19,
+      "productName": "Garden Essential Plant Food and Protection Kit",
+      "productDetails": "",
+      "productPrice": 579,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-garden-essential-plant-food-and-protection-kit-309425_600x600.jpg?v=1679750046"
+    }
+  ],
+  "fertilizer": [
+    {
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-soil-and-fertilizers-vermicompost-1-kg-set-of-2-995020_305x305.jpg?v=1680589608",
+      "productName": "Vermicompost",
+      "productDetails": "1 kg (Set of 2)",
+      "productPrice": 158,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "productName": "Plant O Boost",
+      "productDetails": "(Overall Growth Booster, 10 g) (set of 10)",
+      "productPrice": 159,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-seeds-plant-o-boost-overall-growth-booster-10-g-16969206333580_600x600.jpg?v=1634226255"
+    },
+    {
+      "id": 3,
+      "productName": "Home Compost Kit",
+      "productDetails": "(For Family of 2)",
+      "productPrice": 1759,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-g-home-compost-kit-for-family-of-2_600x600.jpg?v=1634221853"
+    },
+    {
+      "id": 4,
+      "productName": "Plant O Boost",
+      "productDetails": "(Special Flower Booster, 10 g) (set of 10)",
+      "productPrice": 159,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-seeds-plant-o-boost-special-flower-booster-10-g-16969206399116_600x600.jpg?v=1634226259"
+    },
+    {
+      "id": 5,
+      "productName": "My Organic Garden",
+      "productDetails": "(Plant Protection and Enhancer Kit)",
+      "productPrice": 1399,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-soil-and-fertilizers-my-organic-garden-plant-protection-and-enhancer-kit-16969040691340_600x600.jpg?v=1634224620"
+    },
+    {
+      "id": 6,
+      "productName": "Pack of Vermicompost & Neem Cake",
+      "productDetails": "For House Plants",
+      "productPrice": 175,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-pack-of-vermicompost-and-neem-cake-for-house-plants-126156_600x600.jpg?v=1680946859"
+    },
+    {
+      "id": 7,
+      "productName": "Potting Soil Mix for Flowering Plants",
+      "productDetails": "5 kg",
+      "productPrice": 500,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-soil-and-fertilizers-potting-soil-mix-for-flowering-plants-5-kg-16969330360460_938x938.jpg?v=1634226780"
+    },
+    {
+      "id": 8,
+      "productName": "Nutrient-rich Potting Soil Mix",
+      "productDetails": " 5 kg (Set of 2)-general purpose potting soil",
+      "productPrice": 259,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-soil-and-fertilizers-nutrient-rich-general-purpose-potting-soil-mix-10-kg-16969045934220_600x600.jpg?v=1634224995"
+    },
+    {
+      "id": 9,
+      "productName": "Potting Soil Mix for Bonsai Plants",
+      "productDetails": "3 kg",
+      "productPrice": 549,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-g-soil-and-fertilizers-potting-soil-mix-for-bonsai-plants-3-kg-138409_600x600.jpg?v=1679750946"
+    },
+    {
+      "id": 10,
+      "productName": "Potting Soil Mix ",
+      "productDetails": "3 kg - For Cactus and Succulent plants",
+      "productPrice": 359,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-g-soil-and-fertilizers-potting-soil-mix-for-cactus-and-succulent-plants-3-kg-584375_600x600.jpg?v=1679750946"
+    },
+    {
+      "id": 11,
+      "productName": "Potting Soil Mix for Seeds Gardening",
+      "productDetails": "5 kg",
+      "productPrice": 349,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-soil-and-fertilizers-potting-soil-mix-for-seeds-gardening-5-kg-16969330950284_600x600.jpg?v=1634226798"
+    },
+    {
+      "id": 12,
+      "productName": "General Purpose Potting Soil Mix",
+      "productDetails": "5 kg - For Garden",
+      "productPrice": 290,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-soil-and-fertilizers-general-purpose-garden-potting-soil-mix-5-kg-16968874164364_938x938.jpg?v=1634220123"
+    },
+    {
+      "id": 13,
+      "productName": "Exfoliated Vermiculite ",
+      "productDetails": "250 g",
+      "productPrice": 139,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-soil-and-fertilizers-exfoliated-vermiculite-250-g-16968852504716_938x938.jpg?v=1634219287"
+    },
+    {
+      "id": 14,
+      "productName": "Moss Peat",
+      "productDetails": "5 kg",
+      "productPrice": 699,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-soil-and-fertilizers-moss-peat-5-kg-16969036464268_938x938.jpg?v=1634224461"
+    },
+    {
+      "id": 15,
+      "productName": "Expanded Clay Aggregate",
+      "productDetails": "(Clay Balls) - 1 kg",
+      "productPrice": 199,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-soil-and-fertilizers-expanded-clay-aggregate-clay-balls-1-kg-16969218818188_938x938.jpg?v=1634219302"
+    },
+    {
+      "id": 16,
+      "productName": "Combo to Make Soil Porous",
+      "productDetails": "Perlite and Vermiculite combo",
+      "productPrice": 299,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-pack-of-2-additives-to-make-soil-porous-257070_305x305.jpg?v=1680946857"
+    },
+    {
+      "id": 17,
+      "productName": "Pumice Stones",
+      "productDetails": "1 kg",
+      "productPrice": 299,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-soil-and-fertilizers-pumice-stones-1-kg-16969232121996_600x600.jpg?v=1634227135"
+    },
+    {
+      "id": 18,
+      "productName": "Coco peat block",
+      "productDetails": "900 g (Expands Up to 8 - 14 L)",
+      "productPrice": 125,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-cocopeat-block-900-g_600x600.jpg?v=1634216408"
+    },
+    {
+      "id": 19,
+      "productName": "Coco Husk Block",
+      "productDetails": "4.5 kg",
+      "productPrice": 579,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-soil-and-fertilizers-coco-husk-block-4-5-kg-16968789753996_600x600.jpg?v=1634216398"
+    },
+    {
+      "id": 20,
+      "productName": "Coir Coin",
+      "productDetails": "(Netted, 30 mm) (Set of 50)",
+      "productPrice": 379,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-g-coir-coin-netted-30-mm-pack-of-50_600x600.jpg?v=1634216432"
+    }
+  ],
+  "plants": [
+    {
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-damascus-rose-scented-rose-any-color-plant_305x305.jpg?v=1634217615",
+      "productName": "Damascus Rose",
+      "productDetails": "Scented Rose (Any Color) - Plant",
+      "productPrice": 269,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "productName": "Top 4 Die Hard Succulents Pack",
+      "productDetails": "-",
+      "productPrice": 759,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-g-top-4-die-hard-succulents-pack-980804_600x600.jpg?v=1679751768"
+    },
+    {
+      "id": 3,
+      "productName": "Orange Fruit",
+      "productDetails": "Santra ( Grafted ) - Plant",
+      "productPrice": 559,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-plants-orange-fruit-santra-grafted-plant-16969145090188_305x305.jpg?v=1634225134"
+    },
+    {
+      "id": 4,
+      "productName": "Hibiscus",
+      "productDetails": "(Pack of 3) - Plant",
+      "productPrice": 889,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-combo-packs-plants-hibiscus-pack-of-3-plant_512x512.jpg?v=1634221709"
+    },
+    {
+      "id": 5,
+      "productName": "Marginata",
+      "productDetails": "(Dracaena marginata) - Plant",
+      "productPrice": 299,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-g-marginata-dracaena-marginata-plant_600x600.jpg?v=1634223794"
+    },
+    {
+      "id": 6,
+      "productName": "Aloe vera",
+      "productDetails": "Succulent Plant",
+      "productPrice": 275,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-plants-aloe-vera-succulent-plant-16968585871500_938x938.jpg?v=1634213151"
+    },
+    {
+      "id": 7,
+      "productName": "Gulmohar Tree",
+      "productDetails": "Delonix regia - Plant",
+      "productPrice": 300,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-gulmohar-tree-delonix-regia-plant_305x305.jpg?v=1634220919"
+    },
+    {
+      "id": 8,
+      "productName": "Goodluck Plants for House",
+      "productDetails": "Set of 4",
+      "productPrice": 759,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-combo-packs-plants-set-of-4-goodluck-plants-for-house-16969320235148_600x600.jpg?v=1634228712"
+    },
+    {
+      "id": 9,
+      "productName": "Curtain creeper",
+      "productDetails": "Vernonia creeper, Parda bel - Plant",
+      "productPrice": 229,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-plants-curtain-creeper-vernonia-creeper-parda-bel-plant-16968807973004_600x600.jpg?v=1634218017"
+    },
+    {
+      "id": 10,
+      "productName": "Lemon Tree",
+      "productDetails": "Nimboo - Plant",
+      "productPrice": 559,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-plants-nimboo-lemon-tree-plant-16969045311628_305x305.jpg?v=1634224933"
+    },
+    {
+      "id": 11,
+      "productName": "Coleus (Maroon) - Plant",
+      "productDetails": "-",
+      "productPrice": 149,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-clleus-maroon_305x305.jpg?v=1634216535"
+    },
+    {
+      "id": 12,
+      "productName": "Natural Air Purifier Plants ",
+      "productDetails": "For Summer Cooling",
+      "productPrice": 1720,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-combo-packs-plants-natural-air-purifier-plants-for-summer-cooling-16969042296972_305x305.jpg?v=1634224684"
+    },
+    {
+      "id": 13,
+      "productName": "Mango Tree",
+      "productDetails": "(Alphonso, Grafted) - Plant",
+      "productPrice": 699,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-plants-mango-tree-alphonso-grafted-plant-16969020702860_305x305.jpg?v=1634223731"
+    },
+    {
+      "id": 14,
+      "productName": "Common Mint Plant",
+      "productDetails": "Pudina - Plant",
+      "productPrice": 299,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-plants-common-mint-plant-pudina-plant-16968793620620_305x305.jpg?v=1634216630"
+    },
+    {
+      "id": 15,
+      "productName": "Mini Succulent Garden Pack",
+      "productDetails": "-",
+      "productPrice": 1490,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/set-of-12-succulents-626743_305x305.jpg?v=1679750623"
+    },
+    {
+      "id": 16,
+      "productName": "Rubber Tree",
+      "productDetails": "Rubber Plant, Ficus elastica (Small) - Plant",
+      "productPrice": 399,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-plants-rubber-tree-rubber-plant-ficus-elastica-small-plant-16969285304460_305x305.jpg?v=1634227742"
+    },
+    {
+      "id": 17,
+      "productName": "Portulaca Garden Pack",
+      "productDetails": "(4 Plants + 4 Colorful Pots)",
+      "productPrice": 699,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-g-portulaca-garden-pack-4-plants-4-colorful-pots-1-810615_305x305.jpg?v=1680591166"
+    },
+    {
+      "id": 18,
+      "productName": "Drumsticks",
+      "productDetails": "Moringa Oleifera - Plant",
+      "productPrice": 175,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-plants-drumsticks-moringa-oleifera-plant-16968832549004_305x305.jpg?v=1634218281"
+    },
+    {
+      "id": 19,
+      "productName": "Top 5 Fruits Plants to Grow in Pot",
+      "productDetails": "Guava,Banana,Mosambi,Mango,Lemon",
+      "productPrice": 1279,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-combo-packs-plants-top-5-fruits-plants-to-grow-in-pot-16969389408396_305x305.jpg?v=1634230318"
+    },
+    {
+      "id": 20,
+      "productName": "Lantana camara",
+      "productDetails": "(Any Color) - Plant",
+      "productPrice": 379,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-plants-lantana-camara-any-color-plant-16968992784524_305x305.jpg?v=1634226997"
+    },
+    {
+      "id": 21,
+      "productName": "Jamun Tree",
+      "productDetails": "Syzygium cumini - Plant",
+      "productPrice": 379,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-jamun-plant_305x305.jpg?v=1634222564"
+    },
+    {
+      "id": 22,
+      "productName": "Mehandi - Plant",
+      "productDetails": "-",
+      "productPrice": 239,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-mehndi-mehandi-plant_305x305.jpg?v=1634223016"
+    },
+    {
+      "id": 23,
+      "productName": "Pentas",
+      "productDetails": "(Any Color) - Plant",
+      "productPrice": 279,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-plants-pentas-any-color-plant-16969168683148_305x305.jpg?v=1634225662"
+    },
+    {
+      "id": 24,
+      "productName": "Wish Good Luck With Lucky Bamboo",
+      "productDetails": "In a Glass Vase with Pebbles - 3 Layer ",
+      "productPrice": 779,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-plants-wish-good-luck-with-3-layer-lucky-bamboo-in-a-glass-vase-with-pebbles-16969427746956_305x305.jpg?v=1634231078"
+    },
+    {
+      "id": 25,
+      "productName": "Medicinal Plants Packs",
+      "productDetails": "-",
+      "productPrice": 1079,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-g-top-3-medicinal-herbs_305x305.jpg?v=1637234396"
+    },
+    {
+      "id": 26,
+      "productName": "Kaju Tree",
+      "productDetails": "-",
+      "productPrice": 479,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-plants-kaju-tree-plant-16968974663820_305x305.jpg?v=1634222739"
+    },
+    {
+      "id": 27,
+      "productName": "Rudraksha Tree",
+      "productDetails": "-",
+      "productPrice": 630,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-rudraksha-tree-plant_305x305.jpg?v=1634227766"
+    },
+    {
+      "id": 28,
+      "productName": " Money plants in hanging baskets",
+      "productDetails": "Pack of 4",
+      "productPrice": 2000,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-combo-packs-plants-4-money-plants-in-hanging-baskets-16969034170508_305x305.jpg?v=1634208336"
+    },
+    {
+      "id": 29,
+      "productName": "Cascabela Thevetia",
+      "productDetails": "Yellow Oleander, Bitti (Yellow) - Plant",
+      "productPrice": 350,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-cascabela-thevetia-yellow-oleander-bitti-yellow-plant_305x305.jpg?v=1634215540"
+    },
+    {
+      "id": 30,
+      "productName": "Gerbera - Plant",
+      "productDetails": "(Red)",
+      "productPrice": 349,
+      "productImg": "https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-plants-gerbera-red-plant-16968877113484_305x305.jpg?v=1634220246"
+    }
+  ],
+  "stands": [
+    {
+      "productImg": "https://cdn.shopify.com/s/files/1/0558/5557/9327/products/61MgZiIDCnL._SL1500.jpg?v=1636033563",
+      "productName": "Metal Planter Stands",
+      "productDetails": "(Round, Set of 4)",
+      "productPrice": 1500,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "productName": "Heavy Duty Metal Planter Stands",
+      "productDetails": "Multi-Purpose",
+      "productPrice": 7699,
+      "productImg": "https://i.etsystatic.com/37776567/r/il/bb1a5f/4403595431/il_fullxfull.4403595431_jx6j.jpg"
+    },
+    {
+      "id": 3,
+      "productName": "Metal Planter Stand No. NL0137A",
+      "productDetails": "(Zig Zag, 2.4 X 5 ft/ 0.7 X 1.5 m)",
+      "productPrice": 2840,
+      "productImg": "https://5.imimg.com/data5/SELLER/Default/2022/4/AN/AN/OH/105672799/handmade-wooden-wrought-iron-zig-zag-planters-combo-1000x1000.jpeg"
+    },
+    {
+      "id": 4,
+      "productName": "Nucast Multiple Flower Pot Holder",
+      "productDetails": "-",
+      "productPrice": 8154,
+      "productImg": "https://m.media-amazon.com/images/I/51PH535VwpL._SL500_.jpg"
+    },
+    {
+      "id": 5,
+      "productName": "Bicycle Plant Stand",
+      "productDetails": "-",
+      "productPrice": 1599,
+      "productImg": "https://m.media-amazon.com/images/I/51PQ3JGg2cL._SL500_.jpg"
+    },
+    {
+      "id": 6,
+      "productName": "Livzing Bamboo Plants Shelf",
+      "productDetails": "for Home Indoors",
+      "productPrice": 2075,
+      "productImg": "https://m.media-amazon.com/images/I/51eDog2YlDL._SL500_.jpg"
+    },
+    {
+      "id": 7,
+      "productName": "Beauty Panda Multipurpose Plant Stand Indoors",
+      "productDetails": "-",
+      "productPrice": 5690,
+      "productImg": "https://m.media-amazon.com/images/I/51jcvMGnxeL._SL500_.jpg"
+    },
+    {
+      "id": 8,
+      "productName": "Dime Store Wooden Plant Stand for Indoors",
+      "productDetails": "-",
+      "productPrice": 1569,
+      "productImg": "https://m.media-amazon.com/images/I/5142Q09DZyL._SL500_.jpg"
+    },
+    {
+      "id": 9,
+      "productName": "Ecofynd Indoor plant Stand Online India",
+      "productDetails": "-",
+      "productPrice": 899,
+      "productImg": "https://m.media-amazon.com/images/I/519uDdmGyRL._SL500_.jpg"
+    },
+    {
+      "id": 10,
+      "productName": "Buy Crafter Metal Plant Stand ",
+      "productDetails": "For Home Indoor",
+      "productPrice": 1559,
+      "productImg": "https://m.media-amazon.com/images/I/41YBa-ccL9L._SL500_.jpg"
+    },
+    {
+      "id": 11,
+      "productName": "Dime Store Plant Stand for Balcony",
+      "productDetails": "-",
+      "productPrice": 754,
+      "productImg": "https://m.media-amazon.com/images/I/51unExm9-fL._SL500_.jpg"
+    },
+    {
+      "id": 12,
+      "productName": "Zilver Handmade Cane Planter",
+      "productDetails": "-",
+      "productPrice": 2150,
+      "productImg": "https://m.media-amazon.com/images/I/41U73NXwDjL._SL500_.jpg"
+    },
+    {
+      "id": 13,
+      "productName": "Ronteno Foldable Wooden Plant Shelf",
+      "productDetails": "-",
+      "productPrice": 3500,
+      "productImg": "https://m.media-amazon.com/images/I/41ZFIHwifRL._SL500_.jpg"
+    }
+  ],
+  "orders": [
+    {
+      "address": "",
+      "contact": "",
+      "date": "",
+      "userId": 2,
+      "userName": "saran",
+      "email": "saran16278@gmail.com",
+      "orderDate": "15-07-2023",
+      "status": "Active",
+      "id": 1
+    },
+    {
+      "address": "salem",
+      "contact": "09385982193",
+      "date": "2023-07-21",
+      "strength": 20,
+      "userId": 2,
+      "userName": "saran",
+      "email": "saran16278@gmail.com",
+      "orderDate": "15-07-2023",
+      "status": "Active",
+      "id": 2
+    },
+    {
+      "address": "",
+      "contact": "",
+      "date": "",
+      "userId": 2,
+      "userName": "saran",
+      "email": "saran16278@gmail.com",
+      "orderDate": "15-07-2023",
+      "status": "Active",
+      "id": 3
+    },
+    {
+      "address": "",
+      "contact": "",
+      "date": "",
+      "userId": 2,
+      "userName": "saran",
+      "email": "saran16278@gmail.com",
+      "orderDate": "15-07-2023",
+      "status": "Active",
+      "id": 4
+    }
+  ]
+}

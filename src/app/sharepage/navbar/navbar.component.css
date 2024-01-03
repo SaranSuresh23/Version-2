@@ -1,0 +1,62 @@
+.navbar{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0rem;
+    padding-bottom: 0.2rem;
+}
+.navbar-light  .container-fluid
+{
+    background-color: var(--primary-color);
+    height: 50px;
+}
+.navbar-light  a.navbar-brand
+{
+    color: #fff;
+    font-family:Inspiration;
+    font-style: italic;
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link
+{
+    color: #fff;
+    
+}
+.navbar-light .navbar-nav .nav-link.active-link
+{
+    color: #DDFFE7;
+    text-decoration: underline;
+}
+.navbar-light .navbar-nav .nav-link i
+{
+    color: #fff;
+    font-size: larger;
+    
+}
+.navbar-light .navbar-nav .nav-link i:hover 
+{
+    color: #DDFFE7;
+}
+.form-control {
+    border-radius: 3px;
+    width: 400px;
+    margin-left: 20px;
+    background-color: rgba(255,255,255,.2);
+}
+.search-icon {
+    position: absolute;
+    z-index: 10;
+    right: 20%;
+    top: 15px;
+    color:#fff;
+    font-size: 1.5rem;
+}
+.search-icon:hover{
+    color:#9FE2BF;
+}
+.form-control::placeholder{
+    text-transform: capitalize;
+    color:#ddd;
+  }

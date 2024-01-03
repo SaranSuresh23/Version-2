@@ -1,0 +1,148 @@
+/*
+body {
+  font-family: Montserrat,Arial, Helvetica, sans-serif;
+  background-color:#f7f7f7;
+  background-size:cover;
+  background-repeat:no-repeat;
+  padding:0 5%;
+  display:flex;
+}
+* {box-sizing: border-box} */
+
+* {box-sizing: border-box}
+body{
+  height: 120vh;
+}
+.containers {
+    position: relative;
+    top: 55%;
+    left: 50%;
+    margin-top: -30px;
+    margin-left: 0px;
+    margin-bottom: 15px;
+    padding: 10px;
+    width:400px;
+    height: 110vh;
+    /* margin-top: 350px;
+    margin-left: 700px; */
+    transform: translate(-50%, -50%);
+    border:2px solid #ccc;
+    border-radius:10px;
+    background: linear-gradient(90deg,rgb(0,163,163) 0%,rgb(0,195,212) 100%);
+    -webkit-box-shadow: 2px 1px 21px -9px rgba(0,0,0,0.38);
+    -moz-box-shadow: 2px 1px 21px -9px rgba(0,0,0,0.38);
+    box-shadow: 2px 1px 21px -9px rgba(0,0,0,0.38);
+  }
+
+
+
+
+.center {
+    margin: 0;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.FormContainer {
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  box-shadow: 0 2px 10px 0 grey;
+  position:absolute;
+  top: 22%;
+  left: 65%;
+  width:27%;
+  align-items:center;
+}
+
+.FormContainer:hover {
+  box-shadow: 0 2px 10px 0 purple;
+}
+
+.errorMessage {
+  color:red;
+}
+h6{
+  font-size: 19px;
+}
+
+/* input[type=text], select {
+  width: 50%;
+  padding: 9px 17px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type=password], select {
+    width: 50%;
+    padding: 9px 17px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type=email], select {
+  width: 50%;
+  padding: 9px 17px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+} */
+select {
+  width: 18%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f7f7f7;
+  font-family: Montserrat,Arial, Helvetica, sans-serif;
+}
+input[type=text], input[type=password],input[type=phone], input[type=email] {
+  width: 100%;
+  height: 35px;
+  padding: 10px;
+  /* margin: 5px 0 22px 0; */
+  display: inline-block;
+  border: none;
+  background: #f7f7f7;
+  font-family: Montserrat,Arial, Helvetica, sans-serif;
+  margin-bottom: 15px;
+}
+/* input[type=text]:focus, input[type=password]:focus, input[type=phone]:focus, select:focus {
+  background-color: #e5dfdf;
+  outline: none;
+} */
+
+button {
+  background-color:#00778e ;
+  color: #ffffff;
+  padding: 5px 10px;
+  margin: 4px 0;
+  border: none;
+  cursor: pointer;
+  width: 35%;
+  opacity: 0.9;
+  font-size:15px;
+  font-family: Montserrat,Arial, Helvetica, sans-serif;
+  border-radius:10px;
+}
+
+
+button:hover {
+  opacity:100;
+}
+
+.forgotPassword {
+  color:rgba(172, 1, 172, 0.87);
+  font-size:12px;
+}

@@ -1,0 +1,97 @@
+<!--<h1>Edit {{productData?.productName}}</h1>
+<form #editProduct="ngForm" class="common-form" (ngSubmit)="submit(editProduct.value)">
+
+  <p class="message-p">{{productMessage}}</p>
+
+  <div class="field">
+    <input type="text" class="form-input" name="productName" ngModel="{{productData.productName}}" required>
+    <label>Package Name</label>
+  </div>
+
+
+
+  <div class="field">
+    <input type="number" class="form-input" name="productPrice" ngModel="{{productData.productPrice}}" required="">
+    <label>Price</label>
+  </div>
+
+
+  <div class="field">
+    <input type="text" class="form-input" name="productImg" ngModel="{{productData.productImg}}" required>
+    <label>Image URL</label>
+  </div>
+
+
+
+  <div>
+    <button class="btn btn-5" [disabled]="editProduct.invalid">
+        <span></span>
+        Update Package
+    </button>
+  </div>
+</form>-->
+
+
+<div class="enquire-box">
+  <h1>Edit {{productData?.productName}}</h1>
+
+  <form #editProduct="ngForm" class="common-form" (ngSubmit)="submit(editProduct.value)" >
+
+    <p class="message-p"></p>
+    <div class="field">
+        <input type="text" class="form-input" name="productImg" ngModel="{{productData?.productImg}}" required="">
+        <label>Product Image</label>
+      </div>
+
+
+
+      <br>
+
+
+    <div class="field">
+      <input type="text" class="form-input" name="productName" ngModel="{{productData?.productName}}"  >
+      <label>Product Name</label>
+    </div>
+
+
+
+    <br>
+
+    <div class="field">
+      <input type="text" class="form-input" name="productDetails" ngModel="{{productData?.productDetails}}">
+      <label>Product Details</label>
+    </div>
+
+
+
+    <br>
+
+    <div class="field">
+      <input type="number" class="form-input" name="productPrice" ngModel="{{productData?.productPrice}}" required>
+      <label>Product Price</label>
+    </div>
+
+
+
+    <br>
+
+
+
+
+    <br>
+
+    <br>
+
+    <div>
+      <button class="btn btn-5">
+          <span></span>
+          Add Products
+      </button>
+    </div>
+  </form>
+
+
+</div>
+
+
+<br><br><br>

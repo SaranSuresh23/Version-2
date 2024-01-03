@@ -1,0 +1,32 @@
+<h1 class="text-center">STANDS LIST</h1>
+<br>
+<div class="row justify-content-center" *ngFor="let item of productList">
+  <div class="col-md-6">
+     <div class="card flex-md-row mb-4 shadow-sm h-md-250" style="border-radius: 20px;">
+        <div class="card-body d-flex flex-column align-items-start">
+           <h1 style="text-transform: uppercase;">{{item.productName}}</h1><br>
+           <div style="display: flex; gap: 10px;">
+            <i class='fa fa-rupee' style="font-size: x-large;"></i>
+            <h6 style="color: #db6150;">{{item.productPrice}}</h6>
+           </div>
+
+           <div style="display: flex; gap: 10px;">
+            <h1 style="font-size: large;">Description:</h1>
+            <p style="color: #db6150;">{{item.productDetails}}</p>
+           </div>
+
+           <div style="display: flex; gap: 10px;">
+            <button type="button" class="btn btn-primary" routerLink="/admin/editstand/{{item.id}}" >Edit</button>>
+
+
+            <button type="button" class="btn btn-outline-danger" (click)="deleteProduct(item.id)"><i class="bi bi-trash"></i>Delete</button>
+           </div>
+           <br>
+           <!--<a class="btn btn-5">Hover me</a>-->
+
+        </div>
+        <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="{{ item.productImg }}" style="width: 310px; height: 300px; border-top-right-radius: 20px; border-bottom-right-radius: 20px;">
+
+     </div>
+  </div>
+</div>

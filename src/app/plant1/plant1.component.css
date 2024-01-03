@@ -1,0 +1,23 @@
+.buybtn
+{
+    color: #fff;
+    background-color: var(--primary-color);
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buybtn:hover
+{
+
+    color: var(--primary-color);
+    border: 1.5px solid var(--primary-color) ;
+    background-color: #fff;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,28 @@
+<div class="container mt-5 mb-5">
+
+    <div class="row">
+        <h1 class="text-center">Best Selling Products</h1>
+        <div class="col-lg-10">
+            <a routerLink="/home" class="btn btn-sm btn-dark mb-3 ">Back</a>
+        </div>
+
+        <div class="col-lg-4" *ngFor="let pd of productData">
+
+            <div class="productbox mt-3 mb-3">
+                <a [routerLink]="['/menu',pd.id]"><img src="{{pd.productImg}}"></a>
+                <h1>{{pd.productName}}</h1>
+                <p>{{pd.productDetails}}</p>
+                <p>{{pd.productPrice | currency:'INR'}}</p>
+               
+                <a class="buybtn" (click)=addToCart(pd)>Add to Cart &nbsp;<i class="bi bi-cart-plus"></i></a>
+                &nbsp;
+                <a class="buybtn" [routerLink]="['/menu',pd.id]">Buy Now &nbsp;<i class="bi bi-bag"></i></a>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+</div>

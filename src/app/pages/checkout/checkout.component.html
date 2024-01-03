@@ -1,0 +1,275 @@
+<!--<div class="enquire-box">
+  <h2>Enquire Now</h2>
+
+  <form #orderData="ngForm" class="common-form" (ngSubmit)="orderNow(orderData.value)">
+
+    <div class="field">
+      <input type="text" class="form-input" name="name" [value]="userData.name" required="" pattern="^(?!.*[0-9])(?!.*(?:([A-Za-z])\1{2}))[A-Za-z.'\- ]+$" minlength="3" maxlength="20">
+      <label>Name</label>
+    </div>
+
+    <!--<div class="invalid-input">
+      <div *ngIf="name.invalid && (name.dirty || name.touched)" class="error-message">
+        <span *ngIf="name.errors?.['required']">Name is required</span>
+        <span *ngIf="name.errors?.['pattern']">Please enter a valid name</span>
+      </div>
+    </div>
+
+    <div class="field">
+      <input type="email" class="form-input" name="email" [value]="userData.email" email required="" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$">
+      <label>Email</label>
+    </div>
+
+    <!--<div class="invalid-input">
+      <div *ngIf="email.invalid && (email.dirty || email.touched)" class="error-message">
+        <span *ngIf="email.errors?.['required']">Email is required</span>
+        <span *ngIf="email.errors?.['pattern']">Please enter a valid Email</span>
+      </div>
+    </div>
+
+
+    <div class="field">
+      <input type="text" class="form-input" name="address" [value]="userData.address" #cityField="ngModel" ngModel required="" pattern="^[a-zA-Z\s-]+$">   <!--[class.field-error]="orderData.submitted && cityField.invalid"
+      <label>Boarding Point</label>
+    </div>
+
+    <div class="invalid-input">
+      <div *ngIf="cityField.invalid && (cityField.dirty || cityField.touched)" class="error-message">
+        <span *ngIf="cityField.errors?.['required']">City is required</span>
+        <span *ngIf="cityField.errors?.['pattern']">Please enter a valid city</span>
+      </div>
+    </div>
+
+
+    <!--<div [hidden]="cityField.valid || cityField.untouched" class="invalid-input"> <!-<div [hidden]="cityField.valid || !orderData.submitted" class="alert alert-danger">Enter Your City Of Residence</div>->
+      Enter Your City Of Residence
+    </div>
+
+
+
+    <div class="field">
+      <input type="text" class="form-input" name="contact" [value]="userData.contact" #contactField="ngModel" ngModel required="" pattern="((\+*)((0[ -]*)*|((91 )*))((\d{12})+|(\d{10})+))">
+      <label>Phone Number</label>
+    </div>
+
+    <div class="invalid-input">
+      <div *ngIf="contactField.invalid && (contactField.dirty || contactField.touched)" class="error-message">
+        <span *ngIf="contactField.errors?.['required']">Phone Number is required</span>
+        <span *ngIf="contactField.errors?.['pattern']">Please enter a valid number</span>
+      </div>
+    </div>
+
+
+    <!--<div [hidden]="contactField.valid || contactField.untouched" class="invalid-input">
+      Enter a contact number
+    </div>-->
+
+
+
+    <!--<div class="field">
+      <input type="text" class="form-input" [value]="userData.packageName" name="destination" #locationField="ngModel" ngModel required="" min="3" max="20" pattern="^[a-zA-Z\s-]+$">
+      <label>Travel Destination</label>
+    </div>
+
+    <div class="invalid-input">
+      <div *ngIf="locationField.invalid && (locationField.dirty || locationField.touched)" class="error-message">
+        <span *ngIf="locationField.errors?.['required']">Destination is required</span>
+        <span *ngIf="locationField.errors?.['pattern']">Please enter a valid destination</span>
+      </div>
+    </div>
+
+    <br>-->
+    <!--<div [hidden]="locationField.valid || locationField.untouched" class="invalid-input">
+      Enter Your Travel Destination
+    </div>
+
+
+
+    <div class="field">
+      <input type="date" class="form-input" name="date" [value]="userData.date" #dateField="ngModel" ngModel required="" [min]="tomorrow">
+      <label>Date of Travel</label>
+    </div>
+
+
+    <div class="invalid-input">
+      <div *ngIf="dateField.invalid && (dateField.dirty || dateField.touched)" class="error-message">
+        <span *ngIf="dateField.errors?.['required']">Date is required</span>
+      </div>
+    </div>
+
+
+    <!--<div [hidden]="dateField.valid || dateField.untouched" class="invalid-input">
+      Enter Date Of Travel
+    </div>
+
+
+
+    <div class="field">
+      <input type="number" class="form-input" name="strength" [value]="userData.strength" #totalField="ngModel"  [(ngModel)]="totalPeople" ngModel required="" min="1" max="300" pattern="^[0-9]*$">
+      <label>No of Travellers</label>
+    </div>
+
+
+    <div class="invalid-input">
+      <div *ngIf="totalField.invalid && (totalField.dirty || totalField.touched)" class="error-message">
+        <span *ngIf="totalField.errors?.['required']">No of People is required</span>
+        <span *ngIf="totalField.errors?.['pattern']">Please enter a number</span>
+      </div>
+    </div>
+
+
+
+
+
+
+    <!--<p style="cursor: pointer;">Fare Breakup</p>
+    <p>Tour Total Cost   {{packagePrice | currency: 'INR' }}</p>
+    <p>GST @ 15%         {{packagePriceWithGST | currency: 'INR' }}</p>
+    <hr>
+    <p><b>Total Price    {{ packagePriceWithGST | currency: 'INR' }}</b></p>-->
+
+
+
+    <!--<div [hidden]="totalField.valid || totalField.untouched" class="invalid-input">
+      Enter Total People In Travel
+    </div>
+
+
+
+    <div>
+      <button class="btn btn-5" >
+          <span></span>
+          ENQUIRE NOW
+      </button>
+    </div>
+
+  </form>
+</div>
+
+<!--<body class="bg-light">
+
+    <div class="container">
+      <main>
+        <div class="py-5 text-center">
+          <h2>Checkout</h2>
+        </div>
+
+        <div class="row g-5" >
+          <div class="col-md-5 col-lg-4 order-md-last">
+            <form class="card p-2">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Promo code">
+                <button type="submit" class="btn btn-secondary">Redeem</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-7 col-lg-8">
+            <h4 class="mb-3">Billing address</h4>
+            <form class="needs-validation" novalidate>
+              <div class="row g-3">
+                <div class="col-sm-6">
+                  <label for="firstName" class="form-label">First name</label>
+                  <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                  <div class="invalid-feedback">
+                    Valid first name is required.
+                  </div>
+                </div>
+
+                <div class="col-sm-6">
+                  <label for="lastName" class="form-label">Last name</label>
+                  <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                  <div class="invalid-feedback">
+                    Valid last name is required.
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
+                  <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                  <div class="invalid-feedback">
+                    Please enter a valid email address for shipping updates.
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <label for="address" class="form-label">Address</label>
+                  <input type="text" class="form-control" id="address" placeholder="1234 Main St" required>
+                  <div class="invalid-feedback">
+                    Please enter your shipping address.
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <label for="address2" class="form-label">Address 2 <span class="text-muted">(Optional)</span></label>
+                  <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+                </div>
+
+                <div class="col-md-5">
+                  <label for="country" class="form-label">Country</label>
+                  <select class="form-select" id="country" required>
+                    <option value="">Choose...</option>
+                    <option>India</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Please select a valid country.
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <label for="state" class="form-label">State</label>
+                  <select class="form-select" id="state" required>
+                    <option value="">Choose...</option>
+                    <option>Tamilnadu</option>
+                    <option>Kerala</option>
+                    <option>Goa</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Please provide a valid state.
+                  </div>
+                </div>
+
+                <div class="col-md-3">
+                  <label for="zip" class="form-label">Zip</label>
+                  <input type="text" class="form-control" id="zip" placeholder="" required>
+                  <div class="invalid-feedback">
+                    Zip code required.
+                  </div>
+                </div>
+              </div>
+
+              <hr class="my-4">
+
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="same-address">
+                <label class="form-check-label" for="same-address">Shipping address is the same as my billing address</label>
+              </div>
+
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="save-info">
+                <label class="form-check-label" for="save-info">Save this information for next time</label>
+              </div>
+
+              <hr class="my-4">
+
+              <h4 class="mb-3">Payment</h4>
+
+              <div class="my-3">
+                <div class="form-check">
+                  <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
+                  <label class="form-check-label" for="credit">COD</label>
+                </div>
+                <div class="form-check">
+                  <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
+                  <label class="form-check-label" for="debit">Gpay</label>
+                </div>
+              </div>
+
+
+
+              <hr class="my-4">
+
+              <button class="w-100 btn btn-primary btn-lg" routerLink="/bill" >Continue to checkout</button>
+            </form>
+          </div>
+        </div>
+      </main>-->

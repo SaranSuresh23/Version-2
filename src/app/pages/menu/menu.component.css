@@ -1,0 +1,50 @@
+
+.productbox 
+{
+    padding: 10px 10px;
+} 
+.productbox img
+{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.productbox img:hover{
+    border: 2px solid #7abfb6;
+}
+.productbox h1 
+{
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.productbox p
+{
+    font-size: 13px;
+    margin-top: 20px;
+}
+.buybtn
+{
+
+    color: #fff;
+    background-color: var(--primary-color);
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buybtn:hover
+{
+
+    color: var(--primary-color);
+    border: 1.5px solid var(--primary-color) ;
+    background-color: #fff;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
